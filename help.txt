@@ -1,0 +1,12 @@
+Includes
+#include <stdlib.h>     // exit, atoi
+#include <unistd.h>     // fork, write, execlp, getpid
+#include <stdio.h>      // sprintf, perror
+#include <string.h>     // strlen
+#include <sys/wait.h>   // waitpid
+#include <signal.h>     // sigaction, sigprocmask
+
+Concurrente - Todos los hijos a la vez
+
+
+Recurrente - Solo un hijo a la vez
